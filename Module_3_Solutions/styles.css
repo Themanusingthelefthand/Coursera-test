@@ -1,0 +1,69 @@
+
+html {
+	height: 190px;
+	width: 1275px;
+	overflow-y: scroll;
+}
+
+body {
+font-size: 30px;
+color: #fff;
+background-color: purple;
+height: 190px;
+width: 1275px;	
+}
+
+h2 {
+	text-align: center;
+}
+.container-fluid {
+	background-color: darkgrey;
+	padding-bottom: 20px;
+	margin: 10px;
+	padding: 15px;
+
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: #f6b319;
+	border-radius: 5px;
+	border: 0px;
+	height: 190px;
+	width: 1275px;
+}
+
+.navbar-brand {
+	padding-top: 25px;
+}
+
+button {
+	float: right;
+}
+
+h1 {
+	font-size: 50px;
+	padding: 15px;
+	margin: 10px 15px 10px 0;
+}
+
+.text-center {
+	text-align: center;
+	size: 28px;
+}
+
+/*************** extra small mobile styles **************/
+@media (min-width: 385px) and (max-width: 575px){
+
+}
+
+
+/*************** small tablet styles ***************/
+@media (min-width: 576px) and (max-width: 767px){
+
+}
+
+/*************** medium tablets, laptop, & desktop styles **************/
+@media screen and (min-width: 768px) and (max-width: 991px){
+
+}
